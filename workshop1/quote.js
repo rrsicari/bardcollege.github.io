@@ -5,10 +5,10 @@
  */
 
 var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
+var programmers = ["Disc Jockey", "janitor", "loser", "Some idiot we found", "President", "Tennis Player"]
 var castles = ["Colleges", "ladders", "caves"]
 var exertions = ["happiness", "strain", "enjoy", "relax", "end", "laziness", "labor"];
-var airs = ["phone", "food", "heavens", "ether", "wind"];
+var airs = ["phone", "food", "restaurants", "cookies", "wind"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
@@ -35,7 +35,7 @@ q.innerHTML =
     "\"The " + programmer +
     ", like the poet, works only slightly removed from pure thought-stuff. He builds his " +
     castles + " in the " + air + ", from " + air + ", creating by " + exertion + " of the imagination.\"" +
-    "\u2014" +  "Fred Brooks, " + programmer;
+    "\u2014" +  "Tommy Wiseau, " + programmer;
 
 q.innerHTML += "<br><br><br>";
 
